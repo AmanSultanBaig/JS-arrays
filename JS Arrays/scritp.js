@@ -55,3 +55,20 @@ const largeNumArr = [12,45,78,54,89,55,99,69];
 const lastArr = [1,3,5,7,9,7,75,3,4,56,5,40];
 /** Ans */ const getLastNum = lastArr[lastArr.length-1];
 console.log("We Found Last Number of Array", getLastNum)
+
+
+// Q: Get index which have value should be more then 66 ?
+
+const indexArr = [
+    {Num:34},
+    {Num:66},
+    {Num:44},
+    {Num:33},
+    {Num:77},
+    {Num:85},
+]
+
+/** Ans */ const getIndex = indexArr.findIndex((temp) => {
+       return temp.Num > 66;
+})
+console.log("Index Found!", getIndex);
