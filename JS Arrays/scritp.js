@@ -1,24 +1,5 @@
 // Array concepts using JS
 
-// filters in Array
-
-// Q: Filter those entries from array which have 
-//done 10 years or more then 10?
-
-const arr = [
-{startDate:1990, endDate:2003},
-{startDate:1999, endDate:2006},
-{startDate:1998, endDate:2020},
-{startDate:1994, endDate:2011},
-{startDate:1991, endDate:1999},
-];
-
-//array.filter 
-/* Ans */ const filterData = arr.filter((temp) => {
-    return temp.endDate - temp.startDate >= 10
-})
-console.log("Those object filtered which have done 10 years or more",filterData)
-
 // Q: if array have missing number so find and add that ?
 const missing_arr = [1,2,4,6,7,8,9,20];
 
