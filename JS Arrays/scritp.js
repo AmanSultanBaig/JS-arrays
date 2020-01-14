@@ -66,3 +66,6 @@ for(let i = arr.length -1; i >= 0; i--){
 var arr = [1,2,4,7,9,8];
 console.log(arr.reverse());
 
+// Q: sum all numbers of array but not the largest element from array ?
+
+
