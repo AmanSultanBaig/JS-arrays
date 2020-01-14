@@ -53,3 +53,11 @@ const indexArr = [
        return temp.Num > 66;
 })
 console.log("Index Found!", getIndex);
+
+// Q: get array in reverse order
+
+var arr = [1,2,4,7,9,8];
+
+for(let i = arr.length -1; i >= 0; i--){
+  console.log(arr[i])
+}
