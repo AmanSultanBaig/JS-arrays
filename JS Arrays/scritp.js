@@ -72,5 +72,4 @@ var arr = [1,2,4,7,9,8];
 let getLargestNum = arr.sort((a, b) => b - a);
 
 let getSum = arr.reduce((total, currentVal) => total + currentVal);
-
 console.log(getSum - getLargestNum[0]);
