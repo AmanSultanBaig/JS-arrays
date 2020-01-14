@@ -37,7 +37,6 @@ const lastArr = [1,3,5,7,9,7,75,3,4,56,5,40];
 /** Ans */ const getLastNum = lastArr[lastArr.length-1];
 console.log("We Found Last Number of Array", getLastNum)
 
-
 // Q: Get index which have value should be more then 66 ?
 
 const indexArr = [
@@ -61,3 +60,9 @@ var arr = [1,2,4,7,9,8];
 for(let i = arr.length -1; i >= 0; i--){
   console.log(arr[i])
 }
+
+// higher order function made life easy
+// same Q with Higher Order Function
+var arr = [1,2,4,7,9,8];
+console.log(arr.reverse());
+
