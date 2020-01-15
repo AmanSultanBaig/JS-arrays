@@ -76,3 +76,5 @@ console.log(getSum - getLargestNum[0]);
 
 // Q: Get highest number that how many times repeat ?
 let getHighestNum = arr.sort((a, b) => b - a);
+let filtered = arr.filter((a) => a == getHighestNum[0]);
+console.log(filtered);
