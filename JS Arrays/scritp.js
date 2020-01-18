@@ -80,3 +80,5 @@ let filtered = arr.filter((a) => a == getHighestNum[0]);
 console.log(filtered);
 
 // get Maximum number in different way 
+var arrList = [1,2,4,7,9,8,43,5,64,78,95,100,29,42,90,485,865,234,654,093];
+
