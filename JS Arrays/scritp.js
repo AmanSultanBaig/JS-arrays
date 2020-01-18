@@ -78,3 +78,5 @@ console.log(getSum - getLargestNum[0]);
 let getHighestNum = arr.sort((a, b) => b - a);
 let filtered = arr.filter((a) => a == getHighestNum[0]);
 console.log(filtered);
+
+// get Maximum number in different way 
