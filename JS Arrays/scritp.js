@@ -83,3 +83,22 @@ console.log(filtered);
 var arrList = [1,2,4,7,9,8,43,5,64,78,95,100,29,42,90,485,865,234,654,093];
 let getHighestNumber = Math.max(...arrList);
 console.log(getHighestNumber);
+
+// how to remove same objects from array of objects
+
+let array [
+    {id:1,name: "aman"},
+    {id:2,name: "noman"},
+    {id:3,name: "salman"},
+    {id:4,name: "usman"},
+    {id:5,name: "aman"},
+]
+
+let result = array.reduce((unique, o) => {
+   if (!unique.some(obj => obj.date === o.date && obj.status === o.status)) {
+       unique.push(o);
+     }
+   return unique;
+}, []);
+
+
